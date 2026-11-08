@@ -1,0 +1,49 @@
+[
+  {
+    "client": "SMA-001",
+    "custodian": "Custodian-A",
+    "opened": "2025-07-01",
+    "cash": 100000,
+    "forbidden": [],
+    "scale": 80,
+    "checks": {
+      "identity": true,
+      "agreement": true,
+      "tax_form": true,
+      "custody": true,
+      "restrictions_approved": true
+    }
+  },
+  {
+    "client": "SMA-002",
+    "custodian": "Custodian-B",
+    "opened": "2025-08-15",
+    "cash": 200000,
+    "forbidden": [
+      "CORP"
+    ],
+    "scale": 200,
+    "checks": {
+      "identity": true,
+      "agreement": true,
+      "tax_form": true,
+      "custody": true,
+      "restrictions_approved": true
+    }
+  },
+  {
+    "client": "SMA-003",
+    "custodian": "Custodian-A",
+    "opened": "2025-09-01",
+    "cash": 50000,
+    "forbidden": [],
+    "scale": 20,
+    "checks": {
+      "identity": true,
+      "agreement": true,
+      "tax_form": false,
+      "custody": true,
+      "restrictions_approved": false
+    }
+  }
+]

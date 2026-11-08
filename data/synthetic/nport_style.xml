@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="urn:synthetic-nport"><formData><invstOrSecs>
+<invstOrSec><name>Synthetic Treasury Pool</name><cusip>SYN000001</cusip><balance>6000</balance><curCd>USD</curCd><valUSD>600000</valUSD><pctVal>60</pctVal><assetCat>DBT</assetCat></invstOrSec>
+<invstOrSec><name>Synthetic Corporate Pool</name><cusip>SYN000002</cusip><balance>4000</balance><curCd>USD</curCd><valUSD>400000</valUSD><pctVal>40</pctVal><assetCat>DBT</assetCat></invstOrSec>
+</invstOrSecs></formData></edgarSubmission>

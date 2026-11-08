@@ -1,0 +1,296 @@
+[
+  {
+    "client": "SMA-001",
+    "status": "READY_FOR_REVIEW",
+    "missing_checks": [],
+    "restricted_positions_remaining": [],
+    "instructions": [
+      {
+        "client": "SMA-001",
+        "custodian": "Custodian-A",
+        "status": "SIMULATED_PENDING_REVIEW",
+        "security": "CORP",
+        "lot": "L3",
+        "side": "SELL",
+        "quantity": 1645.0133333333324,
+        "price": 90.0,
+        "cash_flow": 148051.19999999992,
+        "realized_gain": -32900.26666666665
+      },
+      {
+        "client": "SMA-001",
+        "custodian": "Custodian-A",
+        "status": "SIMULATED_PENDING_REVIEW",
+        "security": "TREA",
+        "lot": "new_TREA",
+        "side": "BUY",
+        "quantity": 2158.3999999999996,
+        "price": 98.0,
+        "cash_flow": -211523.19999999995,
+        "realized_gain": 0
+      }
+    ],
+    "trade_cash_flow": -63472.00000000003,
+    "external_cash_instruction": {
+      "action": "RETAIN_CASH",
+      "amount": 36527.99999999997,
+      "custodian": "Custodian-A",
+      "status": "SIMULATED_PENDING_REVIEW"
+    },
+    "result": {
+      "opening_nav": 1826400.0,
+      "cash": 36527.99999999997,
+      "trades": [
+        {
+          "security": "CORP",
+          "lot": "L3",
+          "side": "SELL",
+          "quantity": 1645.0133333333324,
+          "price": 90.0,
+          "cash_flow": 148051.19999999992,
+          "realized_gain": -32900.26666666665
+        },
+        {
+          "security": "TREA",
+          "lot": "new_TREA",
+          "side": "BUY",
+          "quantity": 2158.3999999999996,
+          "price": 98.0,
+          "cash_flow": -211523.19999999995,
+          "realized_gain": 0
+        }
+      ],
+      "attempts": [
+        {
+          "lot": "L3",
+          "security": "CORP",
+          "acquired": "2023-04-01",
+          "quantity": 8000.0,
+          "cost": 110.0,
+          "requested_qty": 1645.0133333333324,
+          "price": 90.0,
+          "group": "credit_fund",
+          "purchase_qty": 0,
+          "executed_qty": 1645.0133333333324
+        }
+      ],
+      "blocked": [],
+      "lots": [
+        {
+          "lot": "L1",
+          "security": "TREA",
+          "acquired": "2023-03-01",
+          "quantity": 8000.0,
+          "cost": 105.0
+        },
+        {
+          "lot": "L2",
+          "security": "TREA",
+          "acquired": "2025-09-10",
+          "quantity": 800.0,
+          "cost": 101.0
+        },
+        {
+          "lot": "L4",
+          "security": "CORP",
+          "acquired": "2024-04-01",
+          "quantity": 1600.0,
+          "cost": 85.0
+        },
+        {
+          "lot": "L3",
+          "security": "CORP",
+          "acquired": "2023-04-01",
+          "quantity": 6354.986666666668,
+          "cost": 110.0
+        },
+        {
+          "lot": "new_TREA",
+          "security": "TREA",
+          "acquired": "2025-09-30",
+          "quantity": 2158.3999999999996,
+          "cost": 98.0
+        }
+      ],
+      "effective_targets": {
+        "TREA": 0.588,
+        "CORP": 0.392
+      },
+      "actual_weights": {
+        "CORP": 0.392,
+        "TREA": 0.588
+      },
+      "realized_gain": -32900.26666666665,
+      "realized_loss": 32900.26666666665,
+      "loss_locks": [
+        {
+          "date": "2025-09-30",
+          "security": "CORP",
+          "quantity": 1645.0133333333324
+        }
+      ],
+      "absolute_drift": 0.0
+    }
+  },
+  {
+    "client": "SMA-002",
+    "status": "READY_FOR_REVIEW",
+    "missing_checks": [],
+    "restricted_positions_remaining": [],
+    "instructions": [
+      {
+        "client": "SMA-002",
+        "custodian": "Custodian-B",
+        "status": "SIMULATED_PENDING_REVIEW",
+        "security": "CORP",
+        "lot": "L3",
+        "side": "SELL",
+        "quantity": 20000.0,
+        "price": 90.0,
+        "cash_flow": 1800000.0,
+        "realized_gain": -400000.0
+      },
+      {
+        "client": "SMA-002",
+        "custodian": "Custodian-B",
+        "status": "SIMULATED_PENDING_REVIEW",
+        "security": "CORP",
+        "lot": "L4",
+        "side": "SELL",
+        "quantity": 4000.0,
+        "price": 90.0,
+        "cash_flow": 360000.0,
+        "realized_gain": 20000.0
+      },
+      {
+        "client": "SMA-002",
+        "custodian": "Custodian-B",
+        "status": "SIMULATED_PENDING_REVIEW",
+        "security": "TREA",
+        "lot": "new_TREA",
+        "side": "BUY",
+        "quantity": 23160.0,
+        "price": 98.0,
+        "cash_flow": -2269680.0,
+        "realized_gain": 0
+      }
+    ],
+    "trade_cash_flow": -109680.0,
+    "external_cash_instruction": {
+      "action": "RETAIN_CASH",
+      "amount": 90320.0,
+      "custodian": "Custodian-B",
+      "status": "SIMULATED_PENDING_REVIEW"
+    },
+    "result": {
+      "opening_nav": 4516000.0,
+      "cash": 90320.0,
+      "trades": [
+        {
+          "security": "CORP",
+          "lot": "L3",
+          "side": "SELL",
+          "quantity": 20000.0,
+          "price": 90.0,
+          "cash_flow": 1800000.0,
+          "realized_gain": -400000.0
+        },
+        {
+          "security": "CORP",
+          "lot": "L4",
+          "side": "SELL",
+          "quantity": 4000.0,
+          "price": 90.0,
+          "cash_flow": 360000.0,
+          "realized_gain": 20000.0
+        },
+        {
+          "security": "TREA",
+          "lot": "new_TREA",
+          "side": "BUY",
+          "quantity": 23160.0,
+          "price": 98.0,
+          "cash_flow": -2269680.0,
+          "realized_gain": 0
+        }
+      ],
+      "attempts": [
+        {
+          "lot": "L3",
+          "security": "CORP",
+          "acquired": "2023-04-01",
+          "quantity": 20000.0,
+          "cost": 110.0,
+          "requested_qty": 20000.0,
+          "price": 90.0,
+          "group": "credit_fund",
+          "purchase_qty": 0,
+          "executed_qty": 20000.0
+        },
+        {
+          "lot": "L4",
+          "security": "CORP",
+          "acquired": "2024-04-01",
+          "quantity": 4000.0,
+          "cost": 85.0,
+          "requested_qty": 4000.0,
+          "price": 90.0,
+          "group": "credit_fund",
+          "purchase_qty": 0,
+          "executed_qty": 4000.0
+        }
+      ],
+      "blocked": [],
+      "lots": [
+        {
+          "lot": "L1",
+          "security": "TREA",
+          "acquired": "2023-03-01",
+          "quantity": 20000.0,
+          "cost": 105.0
+        },
+        {
+          "lot": "L2",
+          "security": "TREA",
+          "acquired": "2025-09-10",
+          "quantity": 2000.0,
+          "cost": 101.0
+        },
+        {
+          "lot": "new_TREA",
+          "security": "TREA",
+          "acquired": "2025-09-30",
+          "quantity": 23160.0,
+          "cost": 98.0
+        }
+      ],
+      "effective_targets": {
+        "TREA": 0.98
+      },
+      "actual_weights": {
+        "CORP": 0.0,
+        "TREA": 0.98
+      },
+      "realized_gain": -380000.0,
+      "realized_loss": 400000.0,
+      "loss_locks": [
+        {
+          "date": "2025-09-30",
+          "security": "CORP",
+          "quantity": 20000.0
+        }
+      ],
+      "absolute_drift": 0.0
+    }
+  },
+  {
+    "client": "SMA-003",
+    "status": "HOLD",
+    "missing_checks": [
+      "tax_form",
+      "restrictions_approved"
+    ],
+    "instructions": [],
+    "external_cash_instruction": null
+  }
+]

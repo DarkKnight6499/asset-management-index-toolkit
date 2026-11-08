@@ -1,0 +1,140 @@
+{
+  "opening_nav": 23580.0,
+  "cash": 0,
+  "trades": [
+    {
+      "security": "CORP",
+      "lot": "L3",
+      "side": "SELL",
+      "quantity": 100.0,
+      "price": 90.0,
+      "cash_flow": 9000.0,
+      "realized_gain": -2000.0
+    },
+    {
+      "security": "CORP",
+      "lot": "L4",
+      "side": "SELL",
+      "quantity": 20.0,
+      "price": 90.0,
+      "cash_flow": 1800.0,
+      "realized_gain": 100.0
+    },
+    {
+      "security": "CORP_ALT",
+      "lot": "new_CORP_ALT",
+      "side": "BUY",
+      "quantity": 128.0,
+      "price": 100.0,
+      "cash_flow": -12800.0,
+      "realized_gain": 0
+    }
+  ],
+  "attempts": [
+    {
+      "lot": "L3",
+      "security": "CORP",
+      "acquired": "2023-04-01",
+      "quantity": 100.0,
+      "cost": 110.0,
+      "requested_qty": 100.0,
+      "price": 90.0,
+      "group": "credit_fund",
+      "purchase_qty": 0,
+      "executed_qty": 100.0
+    },
+    {
+      "lot": "L4",
+      "security": "CORP",
+      "acquired": "2024-04-01",
+      "quantity": 20.0,
+      "cost": 85.0,
+      "requested_qty": 20.0,
+      "price": 90.0,
+      "group": "credit_fund",
+      "purchase_qty": 0,
+      "executed_qty": 20.0
+    },
+    {
+      "lot": "L1",
+      "security": "TREA",
+      "acquired": "2023-03-01",
+      "quantity": 100.0,
+      "cost": 105.0,
+      "requested_qty": 13.755102040816325,
+      "price": 98.0,
+      "group": "treasury_fund",
+      "purchase_qty": 10.0,
+      "executed_qty": 0
+    },
+    {
+      "lot": "L2",
+      "security": "TREA",
+      "acquired": "2025-09-10",
+      "quantity": 10.0,
+      "cost": 101.0,
+      "requested_qty": 10.0,
+      "price": 98.0,
+      "group": "treasury_fund",
+      "purchase_qty": 10.0,
+      "executed_qty": 0
+    }
+  ],
+  "blocked": [
+    {
+      "security": "TREA",
+      "action": "SELL",
+      "reason": "Purchase inside 30-day window",
+      "quantity": 13.755102040816325
+    },
+    {
+      "security": "TREA",
+      "action": "SELL",
+      "reason": "Purchase inside 30-day window",
+      "quantity": 10.0
+    }
+  ],
+  "lots": [
+    {
+      "lot": "L1",
+      "security": "TREA",
+      "acquired": "2023-03-01",
+      "quantity": 100.0,
+      "cost": 105.0
+    },
+    {
+      "lot": "L2",
+      "security": "TREA",
+      "acquired": "2025-09-10",
+      "quantity": 10.0,
+      "cost": 101.0
+    },
+    {
+      "lot": "new_CORP_ALT",
+      "security": "CORP_ALT",
+      "acquired": "2025-09-30",
+      "quantity": 128.0,
+      "cost": 100.0
+    }
+  ],
+  "effective_targets": {
+    "TREA": 0.4,
+    "CORP": 0,
+    "CORP_ALT": 0.6
+  },
+  "actual_weights": {
+    "CORP": 0.0,
+    "TREA": 0.457167090754877,
+    "CORP_ALT": 0.542832909245123
+  },
+  "realized_gain": -1900.0,
+  "realized_loss": 2000.0,
+  "loss_locks": [
+    {
+      "date": "2025-09-30",
+      "security": "CORP",
+      "quantity": 100.0
+    }
+  ],
+  "absolute_drift": 0.114334181509754
+}

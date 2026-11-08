@@ -1,0 +1,26 @@
+{
+  "author": "Yazad Madan",
+  "kind": "synthetic_outputs",
+  "seed": 73421,
+  "as_of": "2025-09-30",
+  "snapshot_manifest_sha256": "fa047892720c3de7a9af469c814400ba983690f93b251476c0dded6f45841874",
+  "outputs": {
+    "billing.csv": "c48fb66de993ebf8e334a07bb540539432f4cae167c065b2fd6174f152004f41",
+    "custodian_cash_instructions.csv": "13428b3c7db4fed21196be5b89dfba0251345fe6b2ccee88705d55dadfed85c5",
+    "custodian_trade_instructions.csv": "cf05649ff7c902ff84481d3bc186084bfd2aa8108012725740e248f9a5286e13",
+    "excel_verification.json": "b12cac83d7059df752d8982ed35aff50bdabd193c97d21c83ae1be2eadbde0df",
+    "index_constituents.csv": "020dd5f7698d90a1a910ad1e915b2f781d4c0b711006cd69d4c6fc1bd0e1df6a",
+    "index_monthly.csv": "6ac9339afa909b6d4118c7f0e245097bc30fb67c6b5d7397df1524faddc4e5f1",
+    "index_summary.json": "146b8753eff6a990dc951321e36d3935836cbe4bff0484781ad3b98571e8a997",
+    "manager_recommendations.md": "be8fdee4dd6b39fe1cb3a8b71782d96bbcc33147d82d150b05d8ea645da22af2",
+    "manager_scorecard.csv": "370687ee44bbacb4d1f3069d9acb9966c73c9a7694c564507ac2426b7747af70",
+    "parsed_holdings.csv": "ff82a56082b54bb8b52f6667b9f41c354e62ae5e6ec26353a7de9761ad8e6a00",
+    "project_audit.json": "7b5acbf1eaada5157ea767b37fef633e338fe6d3433c8df4812ca3267c5238ce",
+    "quarterly_review.md": "b1962841a2cee4d13df44aa58d0473a075d2852834f746f4d74922a6d28ddbe1",
+    "sma_workflows.json": "e76cc9456384f985df9e44192a085aa23efe789e656c4aa3b2e8fb844820e06f",
+    "tax_lot_attempts.csv": "5f8b7e5ec41628b0adc933540174e2597898954711ae3069ac10ecc7b72d7195",
+    "tax_plan.json": "366ba0334d0434ed7949b7293711b05b66bc3374864ac662bc9d0d6135c8b4da",
+    "tax_trades.csv": "6cd0d0f8dcbec53ef900f4a5bdf7e4668441103896a5b401fba0154752c8df02",
+    "workbook_inputs.json": "d9a01ae439a788b1aff7fc99994994beba7e9a7b89046f964191e0571842d239"
+  }
+}

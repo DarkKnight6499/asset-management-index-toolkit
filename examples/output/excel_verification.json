@@ -1,0 +1,49 @@
+{
+  "author": "Yazad Madan",
+  "engine": "@oai/artifact-tool",
+  "baseline_differences": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "tested": [
+    "price sensitivity",
+    "wash window sensitivity",
+    "billing rate sensitivity",
+    "formula error scan",
+    "all five sheets rendered"
+  ],
+  "native_excel_checked": false,
+  "saved_ooxml_reconciliation": {
+    "B6": {
+      "cached_excel": -1900.0,
+      "python": -1900.0,
+      "difference": 0.0
+    },
+    "B7": {
+      "cached_excel": 2000.0,
+      "python": 2000.0,
+      "difference": 0.0
+    },
+    "B8": {
+      "cached_excel": 10800.0,
+      "python": 10800.0,
+      "difference": 0.0
+    },
+    "B9": {
+      "cached_excel": 0.0,
+      "python": 0,
+      "difference": 0.0
+    },
+    "B10": {
+      "cached_excel": 4216.46,
+      "python": 4216.46,
+      "difference": 0.0
+    }
+  },
+  "author_verified": true,
+  "plain_styles_verified": true,
+  "recalculate_on_open": true
+}

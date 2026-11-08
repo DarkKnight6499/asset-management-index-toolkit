@@ -1,0 +1,5 @@
+lot,security,acquired,quantity,cost,requested_qty,price,group,purchase_qty,executed_qty
+L3,CORP,2023-04-01,100.0,110.0,100.0,90.0,credit_fund,0,100.0
+L4,CORP,2024-04-01,20.0,85.0,20.0,90.0,credit_fund,0,20.0
+L1,TREA,2023-03-01,100.0,105.0,13.755102040816325,98.0,treasury_fund,10.0,0
+L2,TREA,2025-09-10,10.0,101.0,10.0,98.0,treasury_fund,10.0,0

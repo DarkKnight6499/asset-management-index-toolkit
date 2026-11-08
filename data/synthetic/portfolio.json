@@ -1,0 +1,33 @@
+{
+  "prices": {
+    "TREA": 98.0,
+    "CORP": 90.0,
+    "CORP_ALT": 100.0
+  },
+  "groups": {
+    "TREA": "treasury_fund",
+    "CORP": "credit_fund",
+    "CORP_ALT": "distinct_credit_strategy"
+  },
+  "targets": {
+    "TREA": 0.4,
+    "CORP": 0.6
+  },
+  "sma_model": {
+    "TREA": 0.6,
+    "CORP": 0.4
+  },
+  "cash": 2000.0,
+  "purchases": [
+    {
+      "date": "2025-09-10",
+      "security": "TREA",
+      "quantity": 10.0
+    }
+  ],
+  "loss_sales": [],
+  "harvest_replacements": {
+    "CORP": "CORP_ALT"
+  },
+  "as_of": "2025-09-30"
+}

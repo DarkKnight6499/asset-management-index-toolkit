@@ -1,0 +1,18 @@
+{
+  "author": "Yazad Madan",
+  "kind": "synthetic",
+  "seed": 73421,
+  "as_of": "2025-09-30",
+  "generator": "python/am_toolkit/synthetic.py",
+  "public_observations": 0,
+  "files": {
+    "bonds.csv": "b060280b11714e9493b9c971243fc99e9c1076c9184a33bd854c970ea22b1951",
+    "clients.json": "42f58f8dab25b7418505b98ee5a16bcf306be70d4d9f7a57e6755d33870fba8f",
+    "daily_aum.csv": "cadab5bf476a77266dcf641f6ff708c03e3859aa0937bf416f953cfca9bd388c",
+    "manager_profiles.json": "6fe67ed14a1b712d7b62923ea6935577c8528b186a7e04b37933443c1594be2a",
+    "manager_returns.csv": "db0ab88d4c5c12365011c570e0604e656e4f5b2913c0a7aee5a19839956325d5",
+    "nport_style.xml": "c1f9b243288bd62828447d6620161613835642ecff2563a5a96b18f1bd099091",
+    "portfolio.json": "c77c05f3b93bd43d5e8fb80628c1f17e2198a99299db18c02b904fbd9bf0d81a",
+    "tax_lots.csv": "38f1b213d776e6e22baaeb54a59280a38278fed4bb04b176760c19ddf06eb3d0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "author": "Yazad Madan",
+  "status": "passed",
+  "checks": [
+    "local Markdown links and prose constraints",
+    "no network imports in analytical package",
+    "snapshot and analytical output hashes",
+    "25 DDQ answers and six pitch slides",
+    "all 36 monthly weights and gross returns independently reconciled",
+    "onboarding-held accounts excluded from instructions and billing",
+    "workbook has no tab colors"
+  ],
+  "network_used": false
+}

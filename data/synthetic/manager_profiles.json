@@ -1,0 +1,56 @@
+[
+  {
+    "fund": "Harbor Core",
+    "fee_bps": 22,
+    "alpha": 0.0006,
+    "noise": 0.001,
+    "style_policy": {
+      "treasury": 0.6,
+      "credit": 0.4
+    },
+    "style_current": {
+      "treasury": 0.58,
+      "credit": 0.42
+    },
+    "operations_score": 5,
+    "team_score": 4,
+    "operations_evidence": "Synthetic checklist: independent custody, daily reconciliation, tested recovery, dual trade approval, quarterly access review.",
+    "team_evidence": "Synthetic record: four staff, documented deputy, one departure in three years."
+  },
+  {
+    "fund": "Summit Credit",
+    "fee_bps": 48,
+    "alpha": 0.0009,
+    "noise": 0.007,
+    "style_policy": {
+      "treasury": 0.3,
+      "credit": 0.7
+    },
+    "style_current": {
+      "treasury": 0.12,
+      "credit": 0.88
+    },
+    "operations_score": 4,
+    "team_score": 2,
+    "operations_evidence": "Synthetic checklist: four of five controls; recovery exercise pending.",
+    "team_evidence": "Synthetic record: lead portfolio manager controls research and execution; no designated successor."
+  },
+  {
+    "fund": "Orchard Flexible",
+    "fee_bps": 78,
+    "alpha": -0.0004,
+    "noise": 0.011,
+    "style_policy": {
+      "treasury": 0.5,
+      "credit": 0.5
+    },
+    "style_current": {
+      "treasury": 0.2,
+      "credit": 0.8
+    },
+    "operations_score": 2,
+    "team_score": 3,
+    "operations_evidence": "Synthetic checklist: two of five controls; no dual trade approval, recovery test, or access review.",
+    "team_evidence": "Synthetic record: three staff and partial backup coverage, two departures in three years."
+  }
+]

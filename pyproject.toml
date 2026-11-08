@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asset-management-index-toolkit"
+version = "0.1.0"
+description = "Offline synthetic research, tax-lot, SMA and bond-index workflows"
+requires-python = ">=3.12"
+dependencies = []
+authors = [{name = "Yazad Madan"}]
+
+[tool.setuptools.packages.find]
+where = ["python"]
+

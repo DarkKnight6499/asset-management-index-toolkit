@@ -1,0 +1,3 @@
+issuer,security,balance,value_usd,reported_percent,currency,asset,weight
+Synthetic Treasury Pool,SYN000001,6000.0,600000.0,60.0,USD,DBT,0.6
+Synthetic Corporate Pool,SYN000002,4000.0,400000.0,40.0,USD,DBT,0.4

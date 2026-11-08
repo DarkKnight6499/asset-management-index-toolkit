@@ -1,0 +1,4 @@
+security,lot,side,quantity,price,cash_flow,realized_gain
+CORP,L3,SELL,100.0,90.0,9000.0,-2000.0
+CORP,L4,SELL,20.0,90.0,1800.0,100.0
+CORP_ALT,new_CORP_ALT,BUY,128.0,100.0,-12800.0,0

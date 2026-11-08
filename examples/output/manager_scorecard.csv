@@ -1,0 +1,4 @@
+fund,consistency_score,risk_score,fees_score,style_score,operations_score,team_score,total_score,rolling_win_rate,volatility,max_drawdown,style_drift,fee_bps,cumulative_return,recommendation
+Harbor Core,5,4,4,5,5,4,91.0,0.92,0.030464352017385402,-0.016818543904116967,0.01999999999999999,22,0.17278659355843162,Approve
+Summit Credit,3,4,2,2,4,2,59.0,0.48,0.03293169435388791,-0.02213991829949613,0.18000000000000002,48,0.17382560263799718,Watch
+Orchard Flexible,4,3,1,1,2,3,50.0,0.56,0.0457899554401389,-0.039119617376432214,0.30000000000000004,78,0.1432474750210082,Decline

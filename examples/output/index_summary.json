@@ -1,0 +1,11 @@
+{
+  "months": 36,
+  "cumulative_return": 0.19451623237962457,
+  "annualized_return": 0.06103738254016022,
+  "benchmark_cumulative_return": 0.18383741632871464,
+  "max_drawdown": -0.016869293795691798,
+  "annualized_volatility": 0.03693274096623885,
+  "tracking_error": 0.003876954254312331,
+  "total_turnover": 0.2973614480298402,
+  "cost_bps": 5.0
+}
